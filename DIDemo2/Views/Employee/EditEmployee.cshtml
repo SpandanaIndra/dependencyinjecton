@@ -1,0 +1,29 @@
+﻿@model DIDemo2.Models.Employee
+<form asp-action="EditEmployee" asp-controller="Employee">
+    <h1>Edit Employee Details</h1>
+    <br />
+    <label asp-for="Id"></label>
+    <br />
+    <input asp-for="Id" readonly type="text" />
+    <br />
+    <label asp-for="Name"></label>
+    <br />
+    <input asp-for="Name" type="text" />
+    <br />
+    <label asp-for="Department"></label>
+    <br />
+    <input asp-for="Department" type="text" />
+    <br />
+    <label asp-for="Salary"></label>
+    <br />
+    <input asp-for="Salary" type="text" />
+    <br />
+
+
+
+    <br />
+    <input type="submit" value="Update" />
+
+    <br />
+
+</form>

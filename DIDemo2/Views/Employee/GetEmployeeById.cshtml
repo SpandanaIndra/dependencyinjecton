@@ -1,0 +1,13 @@
+﻿@model DIDemo2.Models.Employee
+<form asp-action="GetEmployeeById" asp-controller="Employee">
+    <h1> Employee Details</h1>
+    <br />
+    <label>Id :    @Model.Id</label>
+    <br />
+     <label>Name : @Model.Name</label>
+    <br />
+    <label>Department :  @Model.Department</label>
+    <br />
+    <label>Salary :  @Model.Salary</label>
+    <br />
+</form>
